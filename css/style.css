@@ -1166,9 +1166,7 @@ form button:hover{
     border-top: transparent;
     border-left: transparent;
     animation: scroll-down 1s ease-in-out infinite;
-}
-
-    
+    }
 }
 
 .box-with-text{
