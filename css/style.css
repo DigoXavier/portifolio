@@ -93,7 +93,7 @@ main{
         display: block;
     }
     nav{
-        background-color: #020f2a;
+        background-color: #020f2af1;
     }
 }
 
@@ -444,10 +444,6 @@ body{
     list-style: none;
     font-size: 45px;
     font-weight: 700;
-    }
-
-    .esq{
-        margin-top: 45%;
     }
 
     .scroll-down{
@@ -1146,10 +1142,6 @@ form button:hover{
         font-weight: 300;
     }
 
-    .gallery{
-        width: 46vh;
-    }
-
     .scroll-down{
         border: 2px solid white;
     }
@@ -1166,6 +1158,10 @@ form button:hover{
     border-top: transparent;
     border-left: transparent;
     animation: scroll-down 1s ease-in-out infinite;
+    }
+
+    .dir{
+        margin-top: 15%;
     }
 }
 
@@ -1202,9 +1198,23 @@ hr{
 
     .card .content{
         width: 100%;
-        padding: 0;
         margin: auto;
         height: 300px;
+    }
+
+    .c1 .content{
+        padding: 0;
+        padding-top: 10%;
+    }
+
+    .c2 .content{
+        padding: 0;
+        padding-top: 10%;
+    }
+
+    .c3 .content{
+        padding: 0;
+        padding-top: 10%;
     }
 
     .card .img{
@@ -1217,8 +1227,83 @@ hr{
     .item{
         margin: 0;
     }
+
+    .gallery{
+        width: 43vh;
+    }
 }
 
+
+@media (max-device-width:999px) and (max-device-height: 1800px) {
+    .gallery{
+        width: 55vh;
+    }
+
+    .esq{
+        margin-top: 20%;
+    }
+    
+}
+
+@media (max-device-height: 500px){
+    .quadrado{
+        margin-top: 10%;
+    }
+
+    .esq{
+        margin-top: 5%;
+    }
+
+    .img-bc{
+        display: flex;
+    }
+
+    .dinamico li{
+        margin-left: 20%;
+    }
+
+    nav{
+        height: 12vh;
+    }
+
+    .gallery{
+        width: 200vh;
+    }
+
+    .card .img .span{
+        color: #020f2a00;
+    }
+
+    .esq{
+        margin-top: 5%;
+    }
+}
+
+@media(max-width:539px){
+    .esq{
+        margin-top: 45%;
+    }
+
+    .gallery{
+        width: 46vh;
+    }
+}
+
+@media(max-width: 300px){
+    .gallery{
+        width: 42vh;
+    }
+}
+
+@media(device-width:1024px) and (device-height:600px){
+    .img-bc{
+        display: flex;
+    }
+
+    .dinamico li{
+        margin-left: 23%;
+    }
+}
 
 
 
