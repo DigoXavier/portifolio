@@ -566,6 +566,7 @@ body{
     opacity: .8;
     margin-top: 8px;
     color: white;
+    text-align: left;
 }
 
 .card .arrow {
