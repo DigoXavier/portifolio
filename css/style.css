@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+h1{
+    font-family: 'Squada One', cursive;
+}
+
 a{
     color: #fff;
     text-decoration: none;
@@ -18,10 +22,10 @@ a:hover{
 }
 
 .logo{
-    font-size: 24px;
+    font-size: 45px;
     margin-right: 15%;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    font-family: 'Audiowide', cursive;
 }
 
 nav{
@@ -30,7 +34,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background: #00155f57;
     height: 8vh;
     z-index: 9999;
@@ -66,9 +70,7 @@ main{
 }
 
 @media(max-width: 999px){
-    body{
-        
-    }
+
     .nav-list{
         position: absolute;
         top: 8vh;
@@ -183,7 +185,7 @@ h1{
 
 body{
     background-color: #021336;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .estatico{
@@ -905,7 +907,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     }
 
     .bx-2{
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 20%;
         margin-bottom: 20%;
     }
@@ -964,10 +966,11 @@ section{
     width: 20%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-section h2{
+section h1{
     color: #f5f5f5;
     font-size: 2.5rem;
     margin: 2rem;
+    font-family: 'Squada One', cursive;
 }
 section form{
     display: flex;
@@ -1075,6 +1078,10 @@ form button:hover{
     .img-fluid2{
         margin-left: 30%;
     }
+    
+    .titulo h1{
+        margin-top: 5%;
+    }
 
     .card .content .desc {
     font-size: 14px;
@@ -1140,7 +1147,7 @@ form button:hover{
     }
 
     .gallery{
-        width: 50vh;
+        width: 46vh;
     }
 
     .scroll-down{
