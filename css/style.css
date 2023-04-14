@@ -72,12 +72,13 @@ main{
 @media(max-width: 999px){
 
     .nav-list{
+        border-left: solid 2px #030c1f;
         position: absolute;
         top: 8vh;
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #021336;
+        background: #020f2a;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
