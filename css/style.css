@@ -78,7 +78,7 @@ main{
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #020f2a;
+        background: #020f2af0;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
